@@ -35,23 +35,26 @@ This Streamlit application allows users to interactively train machine learning 
 
 ## ▶️ How to Run
 
-1. Clone the repository:
+### 1. Clone the repository
+
 ```bash
 git clone https://github.com/Lucia-Tortajada/ML_trainer_app.git
 cd ML_trainer_app
 
-2.Create and activate a virtual environment:
+### 2. Create and activate a virtual environment
 
-bash
-Copiar código
+# On Mac/Linux
 python3 -m venv .venv
-source .venv/bin/activate  # On Mac/Linux
-# or
-.venv\Scripts\activate  # On Windows
+source .venv/bin/activate
 
-3.Install dependencies:
+# On Windows
+python -m venv .venv
+.venv\Scripts\activate
+
+### 3. Install dependencies
 
 pip install -r requirements.txt
 
-4.Run the app
+### 4. Run the app
+
 streamlit run app.py
